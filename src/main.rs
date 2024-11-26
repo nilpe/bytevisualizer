@@ -1,6 +1,6 @@
 use clap::Parser;
 use image::{Rgb, RgbImage};
-use std::{error::Error, io, path::PathBuf};
+use std::{io, path::PathBuf};
 #[derive(Parser, Debug)]
 #[command(name = "bytevisualizer")]
 #[command(about = "Visualize byte data")]
